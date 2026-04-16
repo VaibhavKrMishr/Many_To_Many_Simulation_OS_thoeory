@@ -40,7 +40,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 1. **Initialize & Run**:
    ```bash
    cd /path/to/OS_Theory
-   uv run streamlit run app.py
+   uv run streamlit run main.py
    ```
 2. **Access the Web UI**: Open your browser at `http://localhost:8501`.
 
@@ -64,7 +64,7 @@ Unlike the Many-to-One model, when a thread in this simulator enters the **Block
 ## 📂 Project Structure
 ```text
 OS_Theory/
-├── app.py           # Streamlit application & Visualization logic
+├── main.py           # Streamlit application & Visualization logic
 ├── simulator.py     # Core logical engine (Thread & Scheduler classes)
 ├── THEORY.md        # Academic deep-dive into threading architectures
 ├── README.md        # Technical project overview (this file)
